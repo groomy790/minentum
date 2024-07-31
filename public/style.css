@@ -1,0 +1,24 @@
+body, main, h1, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* set flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* set as max size */
+    width: 100vw;
+    height: 100vh;
+
+    /* no overflow */
+    overflow-x: none;
+    overflow-y: none;
+}
+
+h1 {
+    font-size: 7rem;
+}
