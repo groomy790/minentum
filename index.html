@@ -15,6 +15,24 @@
       <span id="time">10:45:15</span>
     </h1>
 
+    <div class="tab" id="google">
+      <input type="text" placeholder="@Google" />
+    </div>
+
+    <div class="tab hidden" id="duckduckgo">
+      <input type="text" placeholder="@Duckduckgo">
+    </div>
+
+    <div class="tab hidden" id="todolist">
+      <span>Todolist comming soon!</span>
+    </div>
+
+    <button id="tabbtn">🔃</button>
+
     <script type="module" src="/src/clock.ts"></script>
+    <script type="module" src="/src/tab.ts"></script>
+
+    <script type="module" src="/src/tabs/google.ts"></script>
+    <script type="module" src="/src/tabs/duckduckgo.ts"></script>
   </body>
 </html>

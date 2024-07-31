@@ -7,7 +7,7 @@ body {
     /* set flex*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     /* set as max size */
@@ -24,4 +24,39 @@ body {
 
 h1 {
     font-size: 7rem;
+}
+
+/* styles for tabs */
+#tabbtn {
+    background-color: white;
+    
+    font-size: 2rem;
+    padding: 15px;
+
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+#google > input {
+    font-size: 2.5rem;
+    padding: 10px;
+    
+    accent-color: #4285f4;
+}
+
+#duckduckgo > input {
+    font-size: 2.5rem;
+    padding: 10px;
+
+    accent-color: #ee400f;
+}
+
+#todolist {
+    color: red;
+}
+
+/* to hide tabs */
+.hidden {
+    display: none;
 }
