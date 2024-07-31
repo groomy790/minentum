@@ -52,4 +52,4 @@ tabbtn.addEventListener("click", () => {
     })
 })
 
-tabs[0].load()
+setTimeout(() => { tabs[0].load() }, 20)
