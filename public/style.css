@@ -17,6 +17,9 @@ body {
     /* no overflow */
     overflow-x: none;
     overflow-y: none;
+
+    /* set font */
+    font-family: Consolas;
 }
 
 h1 {
