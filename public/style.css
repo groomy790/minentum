@@ -26,7 +26,6 @@ h1 {
     font-size: 7rem;
 }
 
-/* styles for tabs */
 #panelbtn {
     background-color: white;
     
@@ -38,6 +37,7 @@ h1 {
     bottom: 50px;
 }
 
+/* styles for tabs */
 #google > input {
     font-size: 2.5rem;
     padding: 10px;
@@ -50,6 +50,15 @@ h1 {
     padding: 10px;
 
     accent-color: #ee400f;
+}
+
+#url > input {
+    font-size: 1.5rem;
+    padding: 20px;
+
+    width: 60vw;
+
+    accent-color: blacks;
 }
 
 #todolist {
