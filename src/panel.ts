@@ -2,10 +2,12 @@ import { Panel } from "./lib/tab"
 
 import { google } from "./tabs/google"
 import { duckduckgo } from "./tabs/duckduckgo"
+import { url } from "./tabs/url"
 
 const panel = new Panel([
     google,
-    duckduckgo
+    duckduckgo,
+    url
 ])
 
 const panelbtn = document.querySelector("#panelbtn") as HTMLButtonElement
