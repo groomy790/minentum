@@ -1,9 +1,11 @@
 {
-    "headers": {
-        "source": "/(.*)",
-        "headers": {
-            "key": "Cache-Control",
-            "value": "s-maxage=31536000, immutable"
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": {
+                "key": "Cache-Control",
+                "value": "s-maxage=31536000, immutable"
+            }
         }
-    }
+    ]
 }
