@@ -39,7 +39,6 @@ const tabs = [
 const tabbtn = q("#tabbtn", BODY)
 
 const index = new Ranged(0, 2)
-
 tabbtn.addEventListener("click", () => {
     const cur = index.inc()
 
