@@ -19,7 +19,7 @@ body {
     overflow-y: none;
 
     /* set font */
-    font-family: Consolas;
+    font-family: 'Courier New', monospace;;
 }
 
 h1 {
