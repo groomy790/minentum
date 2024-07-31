@@ -15,7 +15,7 @@ function load() {
     panel.appendChild(root)
 
     input.addEventListener("change", () => {
-        location.href = `https://www.googletranslate.com/search?q=${input.value}`
+        location.href = `https://translate.google.co.kr/?sl=ko&tl=en&text=${input.value}%0A&op=translate`
     })
 
     input.focus()
