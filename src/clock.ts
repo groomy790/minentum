@@ -17,8 +17,8 @@ const ticking = () => {
     
     // show time
     const format_hour = hour > 12 ? hour - 12 : hour
-    const format_minute = minute > 10 ? minute : `0${minute}`
-    const format_second = second > 10 ? second : `0${second}`
+    const format_minute = minute >= 10 ? minute : `0${minute}`
+    const format_second = second >= 10 ? second : `0${second}`
 
     time.innerText = `${format_hour}:${format_minute}:${format_second}`
 }
