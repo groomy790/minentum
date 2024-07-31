@@ -27,7 +27,7 @@ h1 {
 }
 
 /* styles for tabs */
-#tabbtn {
+#panelbtn {
     background-color: white;
     
     font-size: 2rem;
@@ -54,9 +54,4 @@ h1 {
 
 #todolist {
     color: red;
-}
-
-/* to hide tabs */
-.hidden {
-    display: none;
 }
