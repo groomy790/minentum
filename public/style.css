@@ -46,6 +46,13 @@ h1 {
     accent-color: #4285f4;
 }
 
+#googletranslate > input {
+    font-size: 2.5rem;
+    padding: 10px;
+    
+    accent-color: #4285f4;
+}
+
 #duckduckgo > input {
     font-size: 2.5rem;
     padding: 10px;
