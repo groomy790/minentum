@@ -55,6 +55,18 @@ h1 {
     accent-color: #4285f4;
 }
 
+#med > input {
+    font-size: 2rem;
+    padding: 20px;
+    
+    color:#4285f4;
+    border-radius: 7px;
+    background-color: white;
+
+    border: none;
+    accent-color: black;
+}
+
 #duckduckgo > input {
     font-size: 2.5rem;
     padding: 10px;
